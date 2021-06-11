@@ -1,0 +1,15 @@
+.staticList {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 200px;
+  list-style-type: none;
+}
+
+.staticItem {
+  color: rgb(6, 106, 133);
+}
+
+.staticData {
+  font-weight: 500;
+}

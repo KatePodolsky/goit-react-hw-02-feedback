@@ -1,0 +1,23 @@
+.feedList {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 200px;
+  list-style-type: none;
+}
+
+.button {
+  border: 1px solid aquamarine;
+  border-radius: 15%;
+  background-color: rgb(96, 178, 191);
+  color: aquamarine;
+  box-shadow: 4px 4px 8px 0px rgba(127, 255, 212);
+}
+
+.button:hover,
+.button:focus {
+  color: rgb(6, 106, 133);
+  box-shadow: 4px 4px 8px 0px rgba(6, 106, 133);
+}

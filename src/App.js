@@ -32,7 +32,6 @@ class App extends Component {
                [name]: prevState[name] + 1
             }
         })
-   
   }
 
   countTotalFeedback = () => {
@@ -41,8 +40,8 @@ class App extends Component {
   
   countPositiveFeedbackPercentage = () => {
       return  Math.round((this.state.good * 100) / this.countTotalFeedback())   
-    }
-
+  }
+  
   render() {
     const keys = Object.keys(this.state);
     const isTotal = this.countTotalFeedback()
